@@ -12,6 +12,7 @@ localization["es"] = {};
 localization["ru"] = {};
 localization["ja"] = {};
 localization["sl"] = {};
+localization["zh"] = {};
 
 localization.en["reboot"] = "Reboot device";
 localization.en["reboot_success"] = "Device was successfully rebooted";
@@ -155,6 +156,17 @@ localization.sl["invalid_file_type"] = "Ta vrsta datoteke ni podprta";
 localization.sl["file_too_big"] = "Datoteka je prevelika ({{filesize}} MB), največja dovoljena velikost je {{maxFilesize}} MB";
 localization.sl["downloader_info"] = "Informacije o prenašanju";
 localization.sl["show_file"] = "Pokaži datoteko";
+
+localization.zh["reboot"] = "重新啟動裝置";
+localization.zh["reboot_success"] = "裝置已成功重新啟動";
+localization.zh["reload"] = "重新載入應用程式";
+localization.zh["reload_success"] = "應用程式已成功重新載入";
+localization.zh["save"] = "儲存";
+localization.zh["drop_to_upload"] = "點選此處或拖拉檔案至此處進行上傳";
+localization.zh["invalid_file_type"] = "不支援的檔案類型";
+localization.zh["file_too_big"] = "檔案大小過大 ({{filesize}} MB)，最大雨允許大小為 {{maxFilesize}} MB";
+localization.zh["downloader_info"] = "關於下載資訊";
+localization.zh["show_file"] = "顯示檔案";
 
 function localizeString(key) {
 	return localization[choosen_language][key];
